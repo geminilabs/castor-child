@@ -1,0 +1,34 @@
+{
+  "name": "geminilabs/castor-child",
+  "type": "wordpress-theme",
+  "license": "MIT",
+  "description": "Child theme for Castor",
+  "homepage": "https://github.com/geminilabs/castor-child",
+  "authors": [
+    {
+      "name": "Paul Ryley",
+      "email": "paul@geminilabs.io",
+      "homepage": "https://github.com/geminilabs"
+    }
+  ],
+  "keywords": [
+    "wordpress",
+    "theme",
+    "child-theme"
+  ],
+  "support": {
+    "issues": "https://github.com/geminilabs/castor-child/issues"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "archive": {
+    "exclude": []
+  },
+  "require": {
+    "php": ">=5.6.4",
+    "composer/installers": "^1.2.0"
+  }
+}
